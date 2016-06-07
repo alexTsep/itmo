@@ -25,7 +25,7 @@ public class TShipTypeName {
 		}
 		catch (IllegalArgumentException E)
 		{
-			
+			System.out.println(E.getMessage());
 		}
 	}
 	

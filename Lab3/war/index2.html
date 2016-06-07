@@ -15,7 +15,7 @@
     		
     		var var1 = $('#var1').val(); 
     		var var2 = $('#var2').val(); 
-    		$('#result1').load( "/second?taskType="+ 1 + "&var1="+var1+"&var2="+var2); 
+    		$('#result1').load( "/lab3?taskType="+ 1 + "&var1="+var1+"&var2="+var2); 
     	} );  
     	
     	$('#calc2').click( function() { 
@@ -24,17 +24,17 @@
     		var a = $('#a').val(); 
     		var b = $('#b').val(); 
     		var c = $('#c').val(); 
-    		$('#result2').load( "/second?taskType="+ 2 + "&a="+a+"&b="+b+"&c="+c); 
+    		$('#result2').load( "/lab3?taskType="+ 2 + "&a="+a+"&b="+b+"&c="+c); 
     	} ); 
     	
     	$('#calc3').click( function() { 
     		$('#result3').empty()
-    		$('#result3').load( "/second?taskType="+ 3); 
+    		$('#result3').load( "/lab3?taskType="+ 3); 
     	} );
     	
     	$('#calc4').click( function() { 
     		$('#result4').empty()
-    		$('#result4').load( "/second?taskType="+ 4); 
+    		$('#result4').load( "/lab3?taskType="+ 4); 
     	} );
     } );  
     </script>
